@@ -1,0 +1,32 @@
+package OOPS;
+
+public class Polymorphism {
+	
+	int a=10;
+	int b=20;
+	
+	public void sum()
+	{
+		System.out.println(a+b);
+	}
+	
+	public void sum(int x, int y)
+	{
+		System.out.println(x+y);
+	}
+	
+	public void sum(int x, int y,int z)
+	{
+		System.out.println(x+y+z);
+	}
+	
+	public void sum(int x, double y)
+	{
+		System.out.println(x+y);
+	}
+
+	public void sum(double x, int y)
+	{
+		System.out.println(x+y);
+	}
+}
