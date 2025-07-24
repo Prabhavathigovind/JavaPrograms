@@ -47,6 +47,17 @@ public class Arraylist {
 			System.out.println(it.next());
 		}
 		
+		System.out.println(list.isEmpty());
+		//System.out.println(list.removeAll(list));
+		
+		ArrayList list2 = new ArrayList();
+		list2.add(100);
+		list2.add(80);
+		list2.add("hi");
+		System.out.println(list2);
+		
+		list.removeAll(list2);
+		System.out.println(list);
 		
 
 		
